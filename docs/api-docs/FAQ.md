@@ -6,23 +6,14 @@ layout: default
 ### Frequently Asked Questions 
 
 
-**Q: Here is a question?**
+**Q: What is mabrian?**
 
-A: Here is an answer.
-
-**Q: Here is a question?**
-
-A: Here is an answer.
-
-**Q: Here is a question?**
-
-A: Here is an answer.
-
-**Q: Here is a question?**
-
-A: Here is an answer.
+A: Mabrian is the first Tourism Intelligence platform using Big Data from multiple data sources to identify, measure and predict tourist dynamics at a global scale.
 
 
+**Q: Can I query the api without token?**
+
+A: No you can't. You should have a valid token to query the api. Mail us in [info@mabrian.com](info@mabrian.com).
 
 
 
