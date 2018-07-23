@@ -492,7 +492,7 @@ ul.repo-list.no-padding {
 .header .logo {
     width: 100px;
     display: block;
-    margin: 1.25em 1em;
+    margin: 0;
 }
 
 .page-title {
