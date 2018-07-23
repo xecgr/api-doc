@@ -13,7 +13,7 @@ As usual, you can use GET requests using `curl`
 
     $ curl -X GET --header 'Accept: application/json' 'https://api.mabrian.com/v1/status/'    
     {"status":"good","last_updated":"2018-07-20T09:55:21Z"}     
-    $
+    $    
 
 Or even better, using python-requests
 
