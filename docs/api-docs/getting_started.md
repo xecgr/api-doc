@@ -6,24 +6,33 @@ nav: basics
 
 ### Getting Started
 
-The current version of the API lives at ```https://api.gsa.gov/v3/path```.
+The current version of the API lives at ```https://api.mabrian.com/v1/path```.
 
-- One example of a way to use it.
-- Another example of a way to use it.
+- As usual, you can use GET requests using  ```curl```
+```
+curl -X GET --header 'Accept: application/json' 'https://api.mabrian.com/v1/status/'
+```
+- Or even better, using python-requests
+```
+import requests  
+resp = requests.get('https://api.mabrian.com/v1/status/')  
+```
+
 
 #### Versions
 
 | Version | Date | Changes
 | ------------- | -------------|
-| ```version 1``` | 1/1/2095 | Initial deployment
-| ```version 2``` | 3/1/2096 | Changed data structure to fit congressional mandate
-| ```version 3``` | 3/1/2099 | Request pattern changed for new requirements
+| ```version 1``` | 1/2/2018 | Initial deployment
 
 #### Endpoints
 
 | Endpoint | What it does |
 | ------------- | -------------|
-| ```/citypairs/airfares``` | Returns an array of Airfares based on query parameters
-| ```/citypairs/airfares/{id}``` | Returns an array of Airfares based on unique identifier. Array will contain one airfare. (This is just for demonstration purpose. For City Pairs, the ID does not have meaning.)
+| ```/airdata/{iata}/searches``` | Returns Searches insights (adv search days, adv stay days, etc) based on query parameters
+| ```/airdata/{iata}/bookings``` | Returns Bookings insights (booking type, adv purchase days, adv stay days, etc) based on query parameters
+| ```/airdata/{iata}/capacity``` | Returns a monthly basis array of Capacity insights (pax, connections, flights, etc) based on query parameters
+| ```/airdata/{iata}/flight_prices``` | Returns a monthly basis array of Flight rates based on query parameters
+
 
 <body id="basics"></body>
