@@ -5,7 +5,7 @@ layout: default
 ---
 ### Overview 
 
-This section should contain an overview of the data provided and the API purpose.
+Mabrian allows to query its fetched and enriched data from heterogenous datasources in a quick and easy way
 
 
 ##### Using the API
