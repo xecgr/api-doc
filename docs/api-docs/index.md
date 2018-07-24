@@ -12,10 +12,7 @@ Mabrian allows to query its fetched and enriched data from heterogenous datasour
 We built the API to be as self-documenting as possible, but if you find yourself overwhelmed, we organized this site into four major areas.
 
 - [Getting started](getting_started.html) introduces you to the operations offered by the API.
-- Field references lists and describes the type of information provided by the API.
-  - [Capacity](fields.html)
-  - [Bookings](fields.html)
-  - [Searches](fields.html)
+- [Field reference](fields.html) lists and describes the type of information provided by the API.
 - [Frequently Asked Questions (FAQ)](FAQ.html) Here are answers to some frequently asked questions.
 - [Contact Us](contact_us.html) If you need support or need to get in touch, this is the place to look.
 
