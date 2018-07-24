@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Field Reference
-nav: fields 
+nav: capacity_fields 
 ---
 
 <h3>Field reference for AirData API data</h3>
@@ -73,7 +73,13 @@ nav: fields
 <th>Parameter name</th>
 <th>Description</th>
 <th>Data type</th>
-
+<tr>
+    <td>
+        <code><b>iata</b></code>
+        </td>
+    <td>The iata's arrival airport. If its passed more than one time, it aggregates results for all queried iatas</td>
+    <td>string</td>
+</tr>
 <tr>
     <td>
         <code><b>arrival_date</b></code>
@@ -95,9 +101,9 @@ nav: fields
 <div class="response" style="overflow: hidden;">
     <h4 class="curl">Curl</h4>
     <div class="block curl">
-        <pre>curl -X GET --header 'Accept: application/json' 'https://api.mabrian.com/v1/SVQ/capacity/arrival_date=2018-07-01&months_ago=7&access_token=&lt;YOUR_TOKEN&gt;'</pre></div>
+        <pre>curl -X GET --header 'Accept: application/json' 'https://api.mabrian.com/v1airdata/capacity/?iata=SVQ&arrival_date=2018-07-01&months_ago=7&access_token=&lt;YOUR_TOKEN&gt;'</pre></div>
           <h4 data-sw-translate="">Request URL</h4>
-          <div class="block request_url"><pre>https://api.mabrian.com/v1/SVQ/capacity/arrival_date=2018-07-01&amp;months_ago=7&amp;access_token=&lt;YOUR_TOKEN&gt;</pre></div>
+          <div class="block request_url"><pre>https://api.mabrian.com/v1/airdata/capacity/?iata=SVQ&amp;arrival_date=2018-07-01&amp;months_ago=7&amp;access_token=&lt;YOUR_TOKEN&gt;</pre></div>
           <h4 data-sw-translate="">Response Body</h4>
           <div class="block response_body hljs json">
             <pre class="json">

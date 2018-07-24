@@ -34,10 +34,10 @@ print resp.json()
 
 | Endpoint | What it does |
 | ------------- | -------------|
-| ```/airdata/{iata}/searches``` | Returns Searches insights (adv search days, adv stay days, etc) based on query parameters
-| ```/airdata/{iata}/bookings``` | Returns Bookings insights (booking type, adv purchase days, adv stay days, etc) based on query parameters
-| ```/airdata/{iata}/capacity``` | Returns a monthly basis array of Capacity insights (pax, connections, flights, etc) based on query parameters
-| ```/airdata/{iata}/flight_prices``` | Returns a monthly basis array of Flight rates based on query parameters
+| ```/airdata/searches/``` | Returns Searches insights (adv search days, adv stay days, etc) based on query parameters
+| ```/airdata/bookings/``` | Returns Bookings insights (booking type, adv purchase days, adv stay days, etc) based on query parameters
+| ```/airdata/capacity/``` | Returns a monthly basis array of Capacity insights (pax, connections, flights, etc) based on query parameters
+| ```/airdata/flight_prices/``` | Returns a monthly basis array of Flight rates based on query parameters
 
 
 <body id="basics"></body>
