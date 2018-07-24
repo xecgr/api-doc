@@ -13,9 +13,9 @@ We built the API to be as self-documenting as possible, but if you find yourself
 
 - [Getting started](getting_started.html) introduces you to the operations offered by the API.
 - Field references lists and describes the type of information provided by the API.
-  - [Capacity](fields.html#capacity-fields)
-  - [Bookings](fields.html#bookings-fields)
-  - [Searches](fields.html#searches-fields)
+  - [Capacity](api-docs/fields.html#capacity-fields)
+  - [Bookings](api-docs/fields.html#bookings-fields)
+  - [Searches](api-docs/fields.html#searches-fields)
 - [Frequently Asked Questions (FAQ)](FAQ.html) Here are answers to some frequently asked questions.
 - [Contact Us](contact_us.html) If you need support or need to get in touch, this is the place to look.
 
